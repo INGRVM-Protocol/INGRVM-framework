@@ -14,7 +14,7 @@ This allows the agent to pull up-to-date documentation for any library.
     "@upstash/context7-mcp@latest"
   ],
   "env": {
-    "CONTEXT7_API_KEY": "9a4042c3-f0b6-4f75-aa0c-f55bd00f6cb5"
+    "CONTEXT7_API_KEY": "your_ctx7sk_key_here"
   }
 }
 ```
