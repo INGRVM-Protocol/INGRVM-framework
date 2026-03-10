@@ -6,7 +6,7 @@
 ### **Start of Session (Sync & Branch):**
 0. **IDENTIFY BRANCH:** Run `git checkout node/laptop` (or `node/pc` / `node/mobile`).
 1. **RULE ZERO (INGEST):** Run `git pull origin master` to ingest the latest verified core updates.
-2. **SYNC MESH:** Run `python INGRVM/Infrastructure/sync_mesh.py`. This ensures you have the latest LAN mail and PC Hub discovery details.
+2. **DOPAC MESH:** Run `python INGRVM/Infrastructure/sync_mesh.py`. This ensures you have the latest LAN mail and PC Hub discovery details.
 3. **READ MAIL:** Check `INGRVM/Infrastructure/laptop_inbox.json`.
 4. **SEND ACK (READ RECEIPT):** Immediately run `python INGRVM/Infrastructure/mailroom.py ack`.
 
@@ -155,3 +155,4 @@
 *(See Archive for full details)*
 - **Bridge Relayer:** Upgraded to daemonized Service.
 - **Mobile Rebranding:** Standardized on $DOPA symbol.
+
